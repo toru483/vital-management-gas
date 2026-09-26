@@ -8,9 +8,10 @@
         "vscode": {
             "extensions": [
                 "dbaeumer.vscode-eslint",
-                "esbenp.prettier-vscode"
+                "esbenp.prettier-vscode",
+                "mhutchie.git-graph"
             ]
         }
     },
-    "postCreateCommand": "npm install -g @google/clasp"
+    "postCreateCommand": "npm install -g @google/clasp && npm install --save-dev @types/google-apps-script"
 }

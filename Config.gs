@@ -1,0 +1,5 @@
+const CONFIG = {
+  TEMPLATE_SHEET_NAME: 'サンプル',
+  DATA_RANGE: 'B4:J100',
+  DEFAULT_YEAR: 2027
+};
