@@ -4,6 +4,13 @@
     "features": {
         "ghcr.io/devcontainers/features/git:1": {}
     },
+    "mounts": [
+        {
+            "source": "clasp-config-store",
+            "target": "/home/node",
+            "type": "volume"
+        }
+    ],
     "customizations": {
         "vscode": {
             "extensions": [
