@@ -9,7 +9,9 @@
             "extensions": [
                 "dbaeumer.vscode-eslint",
                 "esbenp.prettier-vscode",
-                "mhutchie.git-graph"
+                "mhutchie.git-graph",
+                "heavensdoor.vscode-jsdoc",
+                "streetsidesoftware.code-spell-checker"
             ]
         }
     },
